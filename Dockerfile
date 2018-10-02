@@ -1,8 +1,8 @@
 # mumble-server
 #
-# Version 1.0.0
+# Version latest
 
-FROM alpine:3.5
+FROM alpine:latest
 MAINTAINER Thomas Ingvarsson <ingvarsson.thomas@gmail.com>
 
 RUN apk add --no-cache murmur
